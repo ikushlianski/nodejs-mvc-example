@@ -2,5 +2,15 @@
 
 module.exports = function(app){
   // set up all our request handlers
-  app.get(...);
+  app.get('/todo', function(req, res){
+
+  });
+
+  app.post('/todo', function(req, res){
+
+  });
+
+  app.delete('/todo', function(req, res){
+    
+  });
 };
